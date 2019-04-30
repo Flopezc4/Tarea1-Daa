@@ -15,7 +15,6 @@ public class CRUDOperaciones {
 	PreparedStatement preparedStatement = null;
 	ResultSet resultSet = null;
 	
-	
 	public int Buscar(Productos p) {
 		int resultado = 0;
 		conexion = ConexionBaseDatos.conectar();
